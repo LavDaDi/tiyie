@@ -311,7 +311,7 @@ h4 {
         height: 750px;
     }
     .ex {
-        margin: 506px auto;
+        margin: 1315px auto;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -347,32 +347,55 @@ h4 {
         height: 350px;
     }
     .galerei_photo {
-        width: 200px;
-        height: 150px;
+        width: 300px;
+        height: 190px;
     }
     .galerei_photo1 {
-        width: 430px;
-        height: 275px;
+        width: 300px;
+        height: 190px;
     }
     .galerei_photo3 {
-        width: 430px;
-        height: 275px;
-        margin: -530px 0 0 0;
+        width: 300px;
+        height: 190px;
+        margin: -645px 0 0 0;
     }
     .galerei_photo2 {
-        width: 200px;
-        height: 150px;
-        margin: -405px 0 0 0;
+        width: 300px;
+        height: 190px;
+        margin: 5px 0 0 0;
     }
     .galerei {
-        width: 0;
+        height: 533px;
+        width: 298px;;
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
     .container {
         min-height: 100%;
         max-width: 988px;
         margin: 0px auto;
         
+    }
+    .about_ass_block_this_txt{
+        flex-direction: column;
+    }
+    .about_ass_text {
+        max-width: 326px;
+    }
+    .about_ass {
+        margin: -418px 0 0 0;
+        background-position: 14.26% 50%;
+    }
+    .vl {
+        margin-top: 121px;
+    }
+    .about_ass_block {
+        margin: -100px 0 0 0;
+        padding: 0 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
     }
 }
