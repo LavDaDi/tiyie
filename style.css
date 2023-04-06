@@ -222,6 +222,91 @@ h4 {
     position: relative;
 }
 
+
+.block_img{
+    margin: 3% 0 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.block_big_img {
+}
+.big_img {
+    width: 455px;
+    height: 700px;
+}
+
+.block_images {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.two_block_img {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two_img {
+    width: 224px;
+    height: 280px;
+}
+
+.block_images_this_text{
+    border: #aad9ce solid 12px;
+    width: 467px;
+    height: 383px;
+}
+
+.block_images_this_text_title {
+    width: 363px;
+    margin: 0 auto;
+}
+.block_images_this_text_title_title {
+    line-height: 1.2;
+    font-size: 1.875rem;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.block_images_this_text_text {
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.8;
+    /* font-size: 1rem; */
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-family: Arimo;
+}
+
+.back{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.back_link{
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition-duration: 0.5s;
+    transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+    margin: 5px auto 0;
+    padding: 15px 0 0 0;
+    border-color: #ff3819 !important;
+    color: #ff3819 !important;
+    background-color: transparent !important;
+}
+
 /**Cетка адаптива**/
 @media(max-width: 1080px){
     
@@ -398,4 +483,46 @@ h4 {
         align-items: center;
         max-width: 100%;
     }
+
+    .block_big_img {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .big_img {
+        max-width: 275px;
+        max-height: 406px;
+    }
+
+    .two_img {
+        margin: 0 auto;
+        max-width: 275px;
+        max-height: 406px;
+    }
+
+    .block_img{
+        flex-direction: column;
+    }
+
+    .two_block_img {
+        flex-direction: column;
+    }
+
+    .block_images_this_text{
+        margin: 0 auto;
+        width: 305px;
+        max-height: 1000px ;
+        height: auto;
+    }
+
+    .block_images_this_text_title {
+        width: 280px;
+        height: auto;
+        max-height: 1000px ;
+        margin: 0 auto;
+        padding-left: 8px;
+    }
+   
 }
